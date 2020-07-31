@@ -80,3 +80,6 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 - https://arxiv.org/abs/1810.04805
 - https://arxiv.org/abs/2003.10555
 - https://huggingface.co/transformers/
+
+## Teşekkürler
+Bu çalışmayı yapmamız sırasında bizden desteklerini esirgemeyen Fatih SOYGAZİ'ye ve mentorumuz Yusuf YİĞİT'e çok teşekkür ederiz.  
