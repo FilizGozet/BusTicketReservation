@@ -5,6 +5,7 @@ Merhaba biz Adnan Menderes Üniversitesi Bilgisayar Mühendisliği Bölümünden
 ## Ne yaptık ?
 Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması konusu üzerinde çalıştık. Fakat bunu yapmadan önce ilk olarak hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanabilecek bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam “” kadar soru çıkarttık. Bu verileri modelimize verebileceğimiz en uygun hale getirerek JSON formatında tuttuk.
 
+## Veri Seti
 ```json
 {
     "title": "Boğazlar Sözleşmesi",
@@ -33,8 +34,6 @@ Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması ko
 }
 
 ```
-
-## Veri Seti
 
 |               |  Başlık/Title  |   Paragraf/Context   | Question-Answer / Soru-Cevap |
 | ------------- |----------------|----------------------|------------------------------|
@@ -76,8 +75,3 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 - https://arxiv.org/abs/1810.04805
 - https://arxiv.org/abs/2003.10555
 - https://huggingface.co/transformers/
-
-
-![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/image/kedi.png?raw=true)
-
-
