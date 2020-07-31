@@ -57,13 +57,13 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 ### ELECTRA
 | Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
 |-----------------|-------|----------------|-------------------------|--------------------------|
-|     Uncased     |       |                |                         |                          |
+|     Electra     |       |                |                         |                          |
 
 
 ### RESULTS
-| Model/Score |   F1   |   Exact   | 
-|-------------|--------|-----------|
-|             |        |           |      
+| Model/Score |    F1    |    Exact   |  Loss Exact  |
+|-------------|----------|------------|--------------|
+|   Electra   | 78.87011 |  57.80031  |     0.42     |     
 
 
 ## Gereksinimler
