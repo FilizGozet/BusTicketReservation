@@ -3,7 +3,7 @@ Merhaba biz Adnan Menderes Üniversitesi Bilgisayar Mühendisliği Bölümünden
 
 
 ## Ne yaptık ?
-Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması konusu üzerinde çalıştık. Fakat bunu yapmadan önce ilk olarak hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanabilecek bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam “” kadar soru çıkarttık.
+Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması konusu üzerinde çalıştık. Fakat bunu yapmadan önce ilk olarak hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanabilecek bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam “” kadar soru çıkarttık. Bu verileri modelimize verebileceğimiz en uygun hale getirerek JSON formatında tuttuk.
 
 ```json
 {
@@ -34,12 +34,12 @@ Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması ko
 
 ```
 
+## Veri Seti
 
-
-|               | Başlık/Title  |  Paragraf/Context    | Question-Answer / Soru-Cevap |
-| ------------- |---------------|----------------------|------------------------------|
-|     Train     |               |                      |                              |
-|     Test      |               |                      |                              |
+|               |  Başlık/Title  |   Paragraf/Context   | Question-Answer / Soru-Cevap |
+| ------------- |----------------|----------------------|------------------------------|
+|     Train     |                |                      |                              |
+|     Test      |                |                      |                              |
 
 Bir sonraki aşamada bu elde ettiğimiz soru ve cevap ikililerini BERT ve ELECTRA algoritmalarına vererek modelimizi eğittik.
 BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelimeler ya da benzer ve eş anlamlı kelimeler ile birlikte değerlendirme yapmaktadır. Bu da bize karmaşık soruların çok daha iyi anlaşılıp, çözümlenme olanğı sağlamaktadır. Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en iyi şekilde eğitmeyi hedefledik.
@@ -51,7 +51,6 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 |    BERT, Uncased#1    |       |                |                         |                          |
 |    BERT, Uncased#2    |       |                |                         |                          |
 |    BERT, Cased        |       |                |                         |                          |
-
 
 
 ### ELECTRA
@@ -69,6 +68,15 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 ## Gereksinimler
 
 ## Referanslar
+Çalışma esnasında kullandığımız kaynaklar aşağıda yer almaktadır.
+- https://github.com/stefan-it/turkish-bert
+- https://github.com/TQuad/turkish-nlp-qa-dataset
+- https://rajpurkar.github.io/SQuAD-explorer/
+- https://arxiv.org/abs/1806.03822
+- https://arxiv.org/abs/1810.04805
+- https://arxiv.org/abs/2003.10555
+- https://huggingface.co/transformers/
+
 
 ![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/image/kedi.png?raw=true)
 
