@@ -7,7 +7,7 @@ Merhaba biz Adnan Menderes Üniversitesi Bilgisayar Mühendisliği Bölümünden
 Soru cevaplama (Question Answering), insanların doğal dilde yönelttikleri soruları otomatik olarak cevaplayan yapı sistemleri ile ilgilenen, bilgi alma ve doğal dil işleme (NLP) alanlarında bir bilgisayar bilimi disiplinidir. Teknolojinin hızla gelişmesiyle beraber artan verileri sorgulama önemli bir hal almıştır. Biz de bu yüzden henüz Türkçe'de henüz çok kullanımı olmayan BERT ve ELECTRA algoritmalarını kullanarak verilen metne bağlı sorulan soruların cevaplandırılması üzerinde çalıştık.
 
 ## Veri Seti
-Çalışmamıza başlamadan önce hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanılabileceğini düşündüğümüz bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam 15129 soru çıkarttık. Bu verileri modelimize verebileceğimiz en uygun hale getirerek JSON formatında tuttuk.
+Çalışmamıza başlamadan önce hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanılabileceğini düşündüğümüz bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam 6234 soru çıkarttık. Bu verileri modelimize verebileceğimiz en uygun hale getirerek JSON formatında tuttuk.
 
 ```json
 {
@@ -47,8 +47,8 @@ Toplam Veri Sayıları
 
 Bir sonraki aşamada elde ettiğimiz soru ve cevap sit bilgileri BERT ve ELECTRA algoritmalarına vererek modelimizi eğittik.
 - BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelimeler ya da benzer ve eş anlamlı kelimeler ile birlikte değerlendirme yapmaktadır. Bu da bize karmaşık soruların çok daha iyi anlaşılıp, çözümlenme olanağı sağlamaktadır. 
-- ELECTRA
-Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en iyi şekilde eğitmeyi hedefledik.
+- ELECTRA, BERT'in faydalarını sağlayan ancak aynı hesaplama bütçesi göz önüne alındığında mevcut tekniklerden daha iyi performans gösteren yeni bir ön eğitim yöntemidir.
+Biz çalışmamızda bu algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi eğitip en iyi sonucu bulmayı hedefledik.
 
 ### BERT
 
