@@ -76,8 +76,9 @@ Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en i
 
 ## Web Uygulaması
 
-Eğittiğimiz modelleri kullanarak bir web arayüzü tasarladık. Kullanıcı metni ve sormak istediği soruları girerek cevabını alabilir.
-![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/images/images6.jpeg?raw=true)
+Eğittiğimiz modelleri kullanarak bir web arayüzü tasarladık. Kullanıcı metni ve sormak istediği soruları girerek cevap alabilir.
+![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/images/images1.jpeg?raw=true)
+![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/images/images5.jpeg?raw=true)
 
 
 ## Gereksinimler
