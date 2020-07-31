@@ -15,11 +15,11 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 
 
 ### BERT
-| Bert/Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
-|----------------------|-------|----------------|-------------------------|--------------------------|
-|       Uncased        |       |                |                         |                          |
-|       Uncased        |       |                |                         |                          |
-|        Cased         |       |                |                         |                          |
+| Model/Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
+|-----------------------|-------|----------------|-------------------------|--------------------------|
+|    BERT, Uncased#1    |       |                |                         |                          |
+|    BERT, Uncased#2    |       |                |                         |                          |
+|    BERT, Cased        |       |                |                         |                          |
 
 
 
@@ -27,5 +27,12 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 | Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
 |-----------------|-------|----------------|-------------------------|--------------------------|
 |     Uncased     |       |                |                         |                          |
+
+
+### RESULTS
+| Model/Score |   F1   |   Exact   | 
+|----------------------|-----------|
+|             |        |           |                                    
+
 
 
