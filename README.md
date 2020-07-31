@@ -71,7 +71,7 @@ Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en i
 |:----------------|:--------:|:----------:|:------------:|
 | Electra         | 78.87011 |  57.80031  |     0.42     |   
 | BERT, Cased     | 80.15858 |  61.85647  |      -       |
-| BERT, Uncased#1 |          |            |      -       |
+| BERT, Uncased#1 | 79.9342  |  61.70044  |      -       |
 | BERT, Uncased#2 |          |            |      -       |
 
 ## Web Uygulaması
