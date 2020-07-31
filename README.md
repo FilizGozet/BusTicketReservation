@@ -4,11 +4,11 @@
 Merhaba biz Adnan Menderes Üniversitesi Bilgisayar Mühendisliği Bölümünden 2020 yılı itibariyle mezun olmuş üç arkadaşız. Adlarımız sırasıyla Okan Çifti, Uğurcan Kök ve Filiz Gözet. Üçümüz de bölüme girdiğimizden beri Doğal Dil İşleme üzerine çalışmaktayız. Bu yüzden Türkiye Açık Kaynak Platformu'nun Türkçe Doğal Dil İşleme konusunda farkındalık oluşturmak amacıyla düzenlediği bu yarışmaya katılarak biz de çalışmalara katkı sağlamak istedik.
 
 ## Soru Cevaplama
-Soru cevaplama (Question Answering), insanların doğal dilde yönelttikleri soruları otomatik olarak cevaplayan yapı sistemleri ile ilgilenen, bilgi alma ve doğal dil işleme (NLP) alanlarında bir bilgisayar bilimi disiplinidir. Teknolojinin hızla gelişmesiyle beraber artan verileri sorgulama önemli bir hal almıştır. Biz de bu yüzden henüz Türkçe'de çok az kullanılan BERT ve ELECTRA algoritmalarını kullanarak
+Soru cevaplama (Question Answering), insanların doğal dilde yönelttikleri soruları otomatik olarak cevaplayan yapı sistemleri ile ilgilenen, bilgi alma ve doğal dil işleme (NLP) alanlarında bir bilgisayar bilimi disiplinidir. Teknolojinin hızla gelişmesiyle beraber artan verileri sorgulama önemli bir hal almıştır. Biz de bu yüzden henüz Türkçe'de çok az kullanılan BERT ve ELECTRA algoritmalarını kullanarak verilen metne bağlı sorulan soruların cevaplandırılması üzerinde çalıştık
 
 ## Ne yaptık ?
 ## Veri Seti
-Biz de bu yarışma için verilen metne bağlı sorulan soruların cevaplandırılması konusu üzerinde çalıştık. Fakat bunu yapmadan önce ilk olarak hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanabilecek bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam “” kadar soru çıkarttık. Bu verileri modelimize verebileceğimiz en uygun hale getirerek JSON formatında tuttuk.
+Çalışmamıza başlamadan önce hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanılabileceğini düşündüğümüz bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam 15129 soru çıkarttık. Bu verileri modelimize verebileceğimiz en uygun hale getirerek JSON formatında tuttuk.
 
 ```json
 {
@@ -36,9 +36,8 @@ Biz de bu yarışma için verilen metne bağlı sorulan soruların cevaplandır�
         }
     ]
 }
-
 ```
-
+Toplam Veri Sayıları
 |               |  Başlık/Title  |   Paragraf/Context   | Question-Answer / Soru-Cevap |
 | ------------- |:--------------:|:--------------------:|:----------------------------:|
 |     Train     |      750       |       2370           |           14099              |
