@@ -46,7 +46,7 @@ Toplam Veri Sayıları
 ## Model Kullanımı
 
 Bir sonraki aşamada elde ettiğimiz soru ve cevap sit bilgileri BERT ve ELECTRA algoritmalarına vererek modelimizi eğittik.
-- BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelimeler ya da benzer ve eş anlamlı kelimeler ile birlikte değerlendirme yapmaktadır. Bu da bize karmaşık soruların çok daha iyi anlaşılıp, çözümlenme olanğı sağlamaktadır. 
+- BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelimeler ya da benzer ve eş anlamlı kelimeler ile birlikte değerlendirme yapmaktadır. Bu da bize karmaşık soruların çok daha iyi anlaşılıp, çözümlenme olanağı sağlamaktadır. 
 - ELECTRA
 Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en iyi şekilde eğitmeyi hedefledik.
 
@@ -54,16 +54,16 @@ Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en i
 
 | Model/Hyperparameters | epoch | max_seq_length | learning_rate | per_gpu_train_batch_size |
 |:----------------------|:-----:|:--------------:|:-------------:|:------------------------:|
-|    BERT, Uncased#1    |       |                |               |                          |
-|    BERT, Uncased#2    |       |                |               |                          |
+|    BERT, Uncased#1    |   7   |      384       |     3e-5      |           16             |
+|    BERT, Uncased#2    |   5   |      384       |     3e-5      |           16             |
 |    BERT, Cased        |   5   |      384       |     3e-5      |           16             |
 
 
 ### ELECTRA
 
-| Model/Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
-|:----------------------|:-----:|:--------------:|:-----------------------:|:------------------------:|
-|     Electra           |       |                |                         |                          |
+| Model/Hyperparameters | epoch | max_seq_length | per_gpu_train_batch_size |
+|:----------------------|:-----:|:--------------:|                          |
+|     Electra           |       |     512        |                          |        
 
 
 ### RESULTS
@@ -76,6 +76,10 @@ Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en i
 
 
 ## Gereksinimler
+- Python
+- Flask
+- Transformers
+- Pytorch
 
 ## Referanslar
 Çalışma esnasında kullandığımız kaynaklar aşağıda yer almaktadır.
