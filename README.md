@@ -11,10 +11,10 @@ Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması ko
 |     Test      |               |                      |                              |
 
 Bir sonraki aşamada bu elde ettiğimiz soru ve cevap ikililerini BERT ve ELECTRA algoritmalarına vererek modelimizi eğittik.
-BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelimeler ya da benzer ve eş anlamlı kelimeler ile birlikte değerlendirme yapmaktadır. Bu da bize karmaşık soruların çok daha iyi anlaşılıp, çözümlenme olanğı sağlamaktadır. Bu iki algoritmayı kullanarak modelimizi en iyi şekilde eğitmeye çalıştık.
+BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelimeler ya da benzer ve eş anlamlı kelimeler ile birlikte değerlendirme yapmaktadır. Bu da bize karmaşık soruların çok daha iyi anlaşılıp, çözümlenme olanğı sağlamaktadır. Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en iyi şekilde eğitmeyi hedefledik.
 
 
-BERT
+### BERT
 | Bert/Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
 |----------------------|-------|----------------|-------------------------|--------------------------|
 |       Uncased        |       |                |                         |                          |
@@ -23,7 +23,7 @@ BERT
 
 
 
-ELECTRA
+### ELECTRA
 | Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
 |-----------------|-------|----------------|-------------------------|--------------------------|
 |     Uncased     |       |                |                         |                          |
