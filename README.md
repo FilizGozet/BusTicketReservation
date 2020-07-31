@@ -70,6 +70,6 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 
 ## Referanslar
 
-![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/kedi.jpg?raw=true)
+![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/kedi.png?raw=true)
 
 
