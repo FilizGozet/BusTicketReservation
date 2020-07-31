@@ -62,7 +62,7 @@ Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en i
 ### ELECTRA
 
 | Model/Hyperparameters | epoch | max_seq_length | per_gpu_train_batch_size |
-|:----------------------|:-----:|:--------------:|                          |
+|:----------------------|:-----:|:--------------:|:------------------------:|
 |     Electra           |       |     512        |                          |        
 
 
@@ -73,6 +73,11 @@ Bu iki algoritmayı kullanarak ve parametrelerini değiştirerek modelimizi en i
 | BERT, Cased     | 80.15858 |  61.85647  |      -       |
 | BERT, Uncased#1 |          |            |      -       |
 | BERT, Uncased#2 |          |            |      -       |
+
+## Web Uygulaması
+
+Eğittiğimiz modelleri kullanarak bir web arayüzü tasarladık. Kullanıcı metni ve sormak istediği soruları girerek cevabını alabilir.
+![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/master/image/images6.png?raw=true)
 
 
 ## Gereksinimler
