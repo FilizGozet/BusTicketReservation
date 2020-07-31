@@ -8,30 +8,28 @@ Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması ko
 ```json
 {
     "title": "Boğazlar Sözleşmesi",
-    "paragraphs": [{ 
-	        {
-                "qas": [{
-                        "question": "Boğazlar Sözleşmesi ne zaman imzalandı ?",
-                        "id": 308,
-                        "answers": [{
-                                "answer_start": 0,
-                                "text": "13 Temmuz 1841 tarihinde"
-                            }
-                        ]
-                    }, {
-                        "question": "Boğazlar Sözleşmesi nerede imzalandı ?",
-                        "id": 309,
-                        "answers": [{
-                                "answer_start": 25,
-                                "text": "Londra kentinde"
-                            }
-                        ]
-                    }
-                ],
-                "context": "13 Temmuz 1841 tarihinde Londra kentinde imzalanan bu sözleşme ile boğazların tarafsız hale gelmesi de amaçlandı. 1841 Boğazlar Sözleşmesi ile barış zamanında herhangi bir devlete ait olan savaş gemilerinin geçişine izin verilmemesi garanti edilmiş olacaktı. Yalnız boğazların sadece savaş döneminde bu tür bir kapalı durumda yer alması da sağlanacaktı. Osmanlı Devleti; herhangi bir savaş halinde yer alması halinde ise boğazları istediği biçimde kullanma hakkına sahip olacaktı. Osmanlı Devleti savaşa girdiği için boğazlar üzerindeki savaş gemilerinin geçişi üzerine tasarruf hakkını kullanmıştır. Müttefikleri Fransa ve İngiltere’nin geçişine izin vermiştir."
-            }
-        ]
-    }
+    "paragraphs": [{
+            "qas": [{
+                    "question": "Boğazlar Sözleşmesi ne zaman imzalandı ?",
+                    "id": 308,
+                    "answers": [{
+                            "answer_start": 0,
+                            "text": "13 Temmuz 1841 tarihinde"
+                        }
+                    ]
+                }, {
+                    "question": "Boğazlar Sözleşmesi nerede imzalandı ?",
+                    "id": 309,
+                    "answers": [{
+                            "answer_start": 25,
+                            "text": "Londra kentinde"
+                        }
+                    ]
+                }
+            ],
+            "context": "13 Temmuz 1841 tarihinde Londra kentinde imzalanan bu sözleşme ile boğazların tarafsız hale gelmesi de amaçlandı. 1841 Boğazlar Sözleşmesi ile barış zamanında herhangi bir devlete ait olan savaş gemilerinin geçişine izin verilmemesi garanti edilmiş olacaktı. Yalnız boğazların sadece savaş döneminde bu tür bir kapalı durumda yer alması da sağlanacaktı. Osmanlı Devleti; herhangi bir savaş halinde yer alması halinde ise boğazları istediği biçimde kullanma hakkına sahip olacaktı. Osmanlı Devleti savaşa girdiği için boğazlar üzerindeki savaş gemilerinin geçişi üzerine tasarruf hakkını kullanmıştır. Müttefikleri Fransa ve İngiltere’nin geçişine izin vermiştir."
+        }
+    ]
 }
 
 ```
