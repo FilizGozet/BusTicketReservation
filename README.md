@@ -5,28 +5,30 @@ Merhaba biz Adnan Menderes Üniversitesi Bilgisayar Mühendisliği Bölümünden
 ## Ne yaptık ?
 Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması konusu üzerinde çalıştık. Fakat bunu yapmadan önce ilk olarak hem kendimizin kullanabileceği hem de başka çalışmalarda da kullanabilecek bir veri seti hazırlamakla işe başladık. Konu bütünlüğünü sağlayabilmek için soru-cevaplarımızı Osmanlı Tarihi üzerine oluşturduk ve bu bağlamda toplam “” kadar soru çıkarttık.
 
->"title": "Fatih Sultan Mehmed (II. Mehmed)",
->"paragraphs": [{
->        "qas": [{
->                "question": "II. Mehmed 'in bilinen adı nedir?",
->                "id": 1600,
->                "answers": [{
->                        "answer_start": 26,
->                        "text": "Fatih Sultan Mehmed"
->                    }
->                ]
->            }, {
->                "question": "Fatih Sultan Mehmed nasıl tanınırdı?",
->                "id": 1609,
->                "answers": [{
->                        "answer_start": 1092,
->                        "text": "Sultanü'l-Berreyn ve Hakanü'l-Bahreyn 'İki karanın ve iki denizin Hükümdarı' olarak"
->                    }
->                ]
->            }
->        ],
->        "context": "II. Mehmed bilinen adıyla Fatih Sultan Mehmed; kısaca Fâtih; Avrupa'da tanınan adıyla: Grand Turco 'Büyük Türk' veya Turcarum Imperator 'Türk İmparatoru'; >30 Mart 1432 – 3 Mayıs 1481 Osmanlı İmparatorluğu'nun yedinci padişahı. Tarihî kaynaklarda ismi, Mehmed isimli diğer padişahlarınki gibi, Muhammed şeklinde geçer. İlk olarak >1444 - 1446 yılları arasında kısa bir dönem, daha sonra 1451'den 1481 yılında ölümüne kadar 30 yıl boyunca hüküm sürdü. II.Mehmed, 21 yaşında İstanbul'u fethederek 1000 >yıllık Bizans İmparatorluğu'na son verdi ve bu olay birçok tarihçi tarafından Orta Çağ'ın sonu Yeni Çağ'ın başlangıcı olarak kabul edildi. Fetih'ten sonra Fethin Babası >anlamına gelen Ebû'l - Feth, daha sonraki dönemlerde ise Çağ Açan Hükümdar ve Kayser-i Rûm yani Roma İmparatoru unvanları ile anıldı. Fatih, İslam peygamberi Muhammed'in >Konstantiniyye elbet fetholunacaktır. Onu fethedecek komutan ne güzel komutan, onu fetheden ordu ne güzel ordudur. Hadisine nâil olduğu için günümüzde Türkiye ve İslam >dünyasının geniş bir kesiminde Kahraman olarak kabul edilmektedir. Fatih Sultan Mehmed Sultanü'l-Berreyn ve Hakanü'l-Bahreyn 'İki karanın ve iki denizin Hükümdarı' olarak >tanınırdı."
->}
+```json
+"title": "Fatih Sultan Mehmed (II. Mehmed)",
+"paragraphs": [{
+        "qas": [{
+                "question": "II. Mehmed 'in bilinen adı nedir?",
+                "id": 1600,
+                "answers": [{
+                        "answer_start": 26,
+                        "text": "Fatih Sultan Mehmed"
+                    }
+                ]
+            }, {
+                "question": "Fatih Sultan Mehmed nasıl tanınırdı?",
+                "id": 1609,
+                "answers": [{
+                        "answer_start": 1092,
+                        "text": "Sultanü'l-Berreyn ve Hakanü'l-Bahreyn 'İki karanın ve iki denizin Hükümdarı' olarak"
+                    }
+                ]
+            }
+        ],
+        "context": "II. Mehmed bilinen adıyla Fatih Sultan Mehmed; kısaca Fâtih; Avrupa'da tanınan adıyla: Grand Turco 'Büyük Türk' veya Turcarum Imperator 'Türk İmparatoru'; 30 Mart 1432 – 3 Mayıs 1481 Osmanlı İmparatorluğu'nun yedinci padişahı. Tarihî kaynaklarda ismi, Mehmed isimli diğer padişahlarınki gibi, Muhammed şeklinde geçer. İlk olarak 1444 - 1446 yılları arasında kısa bir dönem, daha sonra 1451'den 1481 yılında ölümüne kadar 30 yıl boyunca hüküm sürdü. II.Mehmed, 21 yaşında İstanbul'u fethederek 1000 yıllık Bizans İmparatorluğu'na son verdi ve bu olay birçok tarihçi tarafından Orta Çağ'ın sonu Yeni Çağ'ın başlangıcı olarak kabul edildi. Fetih'ten sonra Fethin Babası anlamına gelen Ebû'l - Feth, daha sonraki dönemlerde ise Çağ Açan Hükümdar ve Kayser-i Rûm yani Roma İmparatoru unvanları ile anıldı. Fatih, İslam peygamberi Muhammed'in Konstantiniyye elbet fetholunacaktır. Onu fethedecek komutan ne güzel komutan, onu fetheden ordu ne güzel ordudur. Hadisine nâil olduğu için günümüzde Türkiye ve İslam dünyasının geniş bir kesiminde Kahraman olarak kabul edilmektedir. Fatih Sultan Mehmed Sultanü'l-Berreyn ve Hakanü'l-Bahreyn 'İki karanın ve iki denizin Hükümdarı' olarak tanınırdı."
+}
+```
 
 
 
