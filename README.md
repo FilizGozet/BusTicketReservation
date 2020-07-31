@@ -68,5 +68,8 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 
 ## Gereksinimler
 
+## Referanslar
+
+![alt text](https://github.com/FilizGozet/BusTicketReservation/blob/[branch]/image.jpg?raw=true)
 
 
