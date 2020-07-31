@@ -47,11 +47,11 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 
 ## Kullanılan Modeller
 ### BERT
-| Model/Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
-|-----------------------|-------|----------------|-------------------------|--------------------------|
-|    BERT, Uncased#1    |       |                |                         |                          |
-|    BERT, Uncased#2    |       |                |                         |                          |
-|    BERT, Cased        |       |                |                         |                          |
+| Model/Hyperparameters | epoch | max_seq_length | learning_rate | per_gpu_train_batch_size |
+|-----------------------|-------|----------------|---------------|--------------------------|
+|    BERT, Uncased#1    |       |                |               |                          |
+|    BERT, Uncased#2    |       |                |               |                          |
+|    BERT, Cased        |   5   |      384       |     3e-5      |           16             |
 
 
 ### ELECTRA
@@ -61,9 +61,12 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 
 
 ### RESULTS
-| Model/Score |    F1    |    Exact   |  Loss Exact  |
-|-------------|----------|------------|--------------|
-|   Electra   | 78.87011 |  57.80031  |     0.42     |     
+|   Model/Score   |    F1    |    Exact   |  Loss Exact  |
+|-----------------|----------|------------|--------------|
+|   Electra       | 78.87011 |  57.80031  |     0.42     |   
+| BERT, Cased     | 80.15858 |  61.85647  |      -       |
+| BERT, Uncased#1 |          |            |      -       |
+| BERT, Uncased#2 |          |            |      -       |
 
 
 ## Gereksinimler
