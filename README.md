@@ -38,7 +38,7 @@ Yarışma için verilen metne bağlı sorulan soruların cevaplandırılması ko
 ```
 
 |               |  Başlık/Title  |   Paragraf/Context   | Question-Answer / Soru-Cevap |
-| ------------- |----------------|----------------------|------------------------------|
+| ------------- |:--------------:|:--------------------:|:----------------------------:|
 |     Train     |                |                      |                              |
 |     Test      |                |                      |                              |
 
