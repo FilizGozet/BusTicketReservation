@@ -48,16 +48,16 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 ## Kullanılan Modeller
 ### BERT
 | Model/Hyperparameters | epoch | max_seq_length | learning_rate | per_gpu_train_batch_size |
-|-----------------------|:-----:|:--------------:|:-------------:|:------------------------:|
+|:----------------------|:-----:|:--------------:|:-------------:|:------------------------:|
 |    BERT, Uncased#1    |       |                |               |                          |
 |    BERT, Uncased#2    |       |                |               |                          |
 |    BERT, Cased        |   5   |      384       |     3e-5      |           16             |
 
 
 ### ELECTRA
-| Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
-|-----------------|:-----:|:--------------:|:-----------------------:|:------------------------:|
-|     Electra     |       |                |                         |                          |
+| Model/Hyperparameters | epoch | max_seq_length | per_gpu_eval_batch_size | per_gpu_train_batch_size |
+|:----------------------|:-----:|:--------------:|:-----------------------:|:------------------------:|
+|     Electra           |       |                |                         |                          |
 
 
 ### RESULTS
