@@ -31,7 +31,7 @@ BERT kelimeleri tek tek değerlendirmek yerine, önündeki ve arkasındaki kelim
 
 ### RESULTS
 | Model/Score |   F1   |   Exact   | 
-|----------------------|-----------|
+|-------------|--------|-----------|
 |             |        |           |                                    
 
 
